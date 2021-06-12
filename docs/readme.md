@@ -14,9 +14,9 @@ Ford paid the bill.
 __This repo is about working solutions and recipes and their associated chalk marks, but without the itemized bill.__
 
 ### Contents
-1. Guidelines for contributors.
+1. [Guidelines for contributors.](https://github.com/IOTECH-Donegal/Netiquette)
 2. Scripts for Raspberry PI.
-3. Python code for logging, distributing and processing.
-4. Test methodologies.
+3. Python code for logging.
+4. [Python code for processing.](https://github.com/IOTECH-Donegal/NMEA)
 5. [Recipe 1: simple test of RTK with U-Center and someone elses NTRIP server.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe%201#recipe-1-simplest-test-of-rtk)
 
