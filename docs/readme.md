@@ -15,7 +15,7 @@ __This repo is about working solutions and recipes and their associated chalk ma
 
 ### Contents
 1. [Guidelines for contributors.](https://github.com/IOTECH-Donegal/Netiquette)
-2. [Getting started with RTK]()
+2. [Getting started with RTK](https://github.com/IOTECH-Donegal/RTK/blob/main/docs/gettingstarted.md)
 3. Scripts for Raspberry PI.
 4. Python code for logging.
 5. [Python code for processing.](https://github.com/IOTECH-Donegal/NMEA)
