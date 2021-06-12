@@ -11,5 +11,5 @@ Knowing where to make mark $9,999."*
 
 Ford paid the bill.
 
-This repo is about working solutions and recipes and their associated chalk marks. 
+This repo is about working solutions and recipes and their associated chalk marks, but with the itemized bill. 
 
