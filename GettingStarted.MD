@@ -1,3 +1,5 @@
+# Getting Started with accurate positioning #
+
 People get really confused when they try to distinguish development and production.  
 The term *“shrink-wrapped software”* existed for products that were tested and deployed to such an extent that they worked, probably with many undiscovered 
 bugs and vulnerabilities, but they basically worked. If I had to commit to having working accounts package for a company, I could buy this off-the-shelf, 
@@ -22,10 +24,9 @@ They have good wiring guides on their website, and they are scoring 100% with me
 Buy you development boards from wherever but find the associated technical resources and limitations.
 
 To learn the basis of GNSS, some folks from Stanford published a course on You Tube.
-Its GPS only and a little out-of-date, but its the best starting place I've found.
+Its GPS only and a little out-of-date, but it is the best starting place I've found.
 
-The best blog I have found on RTK is https://rtkexplorer.com/
-Don't bother accessing until you know the basics, this blog assumes some background knowledge.
+The best blog I have found on RTK is https://rtkexplorer.com/, but don't bother accessing until you know the basics, this blog assumes some background knowledge.
 
 
 
