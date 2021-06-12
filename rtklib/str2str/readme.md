@@ -7,3 +7,4 @@ autoexec.sh
 1. Example code for RPi Zero, acting an an NTRIP client to RTK2GO and forwarding RTCM3 to the serial port. 
 2. Be warned, the GPIO serial is 3v3 only, you can connect this to a PRi or an Ardusimple, but its not RS232 levels.
 3. This connects to UART1 on a Ardusimple configured as a Rover.
+4. Check the accompanying repo "Raspbian" to see how to run automatically at atartup.
