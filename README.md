@@ -13,3 +13,7 @@ Ford paid the bill.
 
 This repo is about working solutions and recipes and their associated chalk marks, but with the itemized bill. 
 
+### Contents
+1. Guidelines for contributors.
+2. Recipe 1: simple test of RTK with U-Center and someone elses NTRIP server. 
+
