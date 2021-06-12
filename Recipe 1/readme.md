@@ -3,7 +3,7 @@
 Do some background reading on www.rtk2go.com and find the closest NTRIP mount point. 
 This is just a test, so even if its some distance away, this should work.
 
-Our test site is Umricam:2101
+Our test site is Umricam:2101, located north of Buncrana, Ireland, roughly at 55.166N, 7.435W.
 
 ![](NTRIPClient.jpg)
 
