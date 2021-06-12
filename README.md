@@ -15,5 +15,5 @@ This repo is about working solutions and recipes and their associated chalk mark
 
 ### Contents
 1. Guidelines for contributors.
-2. Recipe 1: simple test of RTK with U-Center and someone elses NTRIP server. 
+2. [Recipe 1: simple test of RTK with U-Center and someone elses NTRIP server.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe%201#recipe-1-simplest-test-of-rtk)
 
