@@ -1,4 +1,4 @@
-# Getting Started with accurate positioning #
+# Getting Started with understanding RTK #
 
 People get really confused when they try to distinguish development and production. The term *“shrink-wrapped software”* existed for products that were tested and deployed to such an extent that they worked, probably with many undiscovered bugs and vulnerabilities, but they basically worked. If I had to commit to having working accounts package for a company, I could buy this off-the-shelf, and easily understand its limitations by talking to current users. That is **production**.
 
