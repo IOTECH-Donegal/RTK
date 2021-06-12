@@ -1,4 +1,4 @@
-Recipe 1: simplest test of RTK
+# Recipe 1: simplest test of RTK
 
 Do some background reading on www.rtk2go.com and find the closest NTRIP mount point. 
 This is just a test, so even if its some distance away, this should work.
