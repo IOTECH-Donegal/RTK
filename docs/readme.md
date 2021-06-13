@@ -18,6 +18,8 @@ __This repo is about working solutions and recipes and their associated chalk ma
 2. [Getting started with RTK](https://github.com/IOTECH-Donegal/RTK/blob/main/docs/gettingstarted.md)
 3. Scripts for Raspberry PI.
 4. Python code for logging.
-5. [Python code for processing.](https://github.com/IOTECH-Donegal/NMEA)
-6. [Recipe 1: simple test of RTK with U-Center and someone elses NTRIP server.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe%201#recipe-1-simplest-test-of-rtk)
+5. [Python code for processing NMEA.](https://github.com/IOTECH-Donegal/NMEA)
+6. Python code for processing RTCM3.
+7. Python code for processing AIS.
+8. [Recipe 1: simple test of RTK with U-Center and someone elses NTRIP server.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe%201#recipe-1-simplest-test-of-rtk)
 
