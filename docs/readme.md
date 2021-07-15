@@ -23,14 +23,9 @@ __This repo is about working solutions and recipes and their associated chalk ma
 7. Python code for processing AIS.
 
 #### Recipes
-[Recipe 1: Simple test of RTK with U-Center and someone elses NTRIP server.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe1/readme.md)
-
-[Recipe 2: Using RTKLIB for RTK processing.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe2/readme.md)
-
-[Recipe 3: Use 4G client on Ardusimple.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe3/readme.md)
-
-[Recipe 4: Use a local base & connect to rover using XBee.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe4/readme.md)
-
-[Recipe 5: Set up a CORS, calibrate using RINEX data.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe5/readme.md)
-
-[Recipe 6: Relay RTCM to RTK2GO.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe6/readme.md)
+1. [Simple test of RTK with U-Center and someone elses NTRIP server.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe1/readme.md)
+2. [Using RTKLIB for RTK processing.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe2/readme.md)
+3. [Use 4G client on Ardusimple.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe3/readme.md)
+4. [Use a local base & connect to rover using XBee.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe4/readme.md)
+5. [Set up a CORS, calibrate using RINEX data.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe5/readme.md)
+6. [Relay RTCM to RTK2GO.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe6/readme.md)
