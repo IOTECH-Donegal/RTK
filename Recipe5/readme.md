@@ -1,3 +1,1 @@
-Set up a CORS
-Calibrate using RINEX data
-Relay RTCM to RTK2GO
+# Recipe 5: Set up a CORS, calibrate using RINEX data

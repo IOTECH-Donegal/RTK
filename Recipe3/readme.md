@@ -1,2 +1,1 @@
-Recipe 3
-Use 4G client on Ardusimple
+# Recipe 3: Use 4G client on Ardusimple

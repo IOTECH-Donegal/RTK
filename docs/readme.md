@@ -21,5 +21,9 @@ __This repo is about working solutions and recipes and their associated chalk ma
 5. [Python code for processing NMEA.](https://github.com/IOTECH-Donegal/NMEA)
 6. Python code for processing RTCM3.
 7. Python code for processing AIS.
-8. [Recipe 1: simple test of RTK with U-Center and someone elses NTRIP server.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe%201#recipe-1-simplest-test-of-rtk)
-
+8. [Recipe 1: Simple test of RTK with U-Center and someone elses NTRIP server.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe%201#recipe-1-simplest-test-of-rtk)
+9. [Recipe 2: Using RTKLIB for RTK processing.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe%201#recipe-1-simplest-test-of-rtk)
+10. [Recipe 3: Use 4G client on Ardusimple.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe%201#recipe-1-simplest-test-of-rtk)
+11. [Recipe 4: Use a local base & connect to rover using XBee.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe%201#recipe-1-simplest-test-of-rtk)
+12. [Recipe 5: Set up a CORS, calibrate using RINEX data.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe%201#recipe-1-simplest-test-of-rtk)
+13. [Recipe 6: Relay RTCM to RTK2GO.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe%201#recipe-1-simplest-test-of-rtk)

@@ -14,6 +14,7 @@ Always
 
 In this repo, I'm mostly using chips from UBlox, they have good manuals available online. 
 Download the Interface Description and Integration Manuals and have them available for reference.
+You need UBlox U-Center software for configuration.
 
 Rather than soldering wires to SMCs, I buy development boards and the best source I've found is Ardusimple.
 Bizarrely, they still have real people at the end of an e-mail query, who are knowledgeable and friendly. 

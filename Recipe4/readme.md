@@ -1,2 +1,2 @@
-Recipe5
-Use a local base on the jeep & connect to rover using XBee
+# Recipe 4: Use a local base & connect to rover using XBee
+
