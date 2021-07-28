@@ -20,7 +20,7 @@ This general approach will also work with commercial CORS services, however, the
 
 Using the output data is more of a problem. What if I need the NMEA strings for an instrument, or to log? Well you can log in U-Centre, but we really need a way to get data out. There are 5 interfaces on the underlying chip. I will not discuss SPI or I2C here, that is for another recipe. But we have two UARTs, which allow serial data to be transmitted and recieved. 
 
-###Warning
+### Warning
 Serial standards like RS232, RS422 and RS485 use high voltages, +/- 15VDC. Raspberry Pi and UBlox boards use 3.3VDC. If you connect them, you will fry the board.
 
 
