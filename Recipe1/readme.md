@@ -5,7 +5,9 @@ This is just a test, so even if its some distance away, this should work.
 
 Our test site is Umricam:2101, located north of Buncrana, Ireland, roughly at 55.166N, 7.435W.
 
-Always take a backup of the Ardusimple configuration before you begin a configuration session. In U-Centre, select **Tools**, **Receiver Configuration**, set a file name and then click **Transfer GNSS->File**
+Always take a backup of the Ardusimple configuration before you begin a configuration session. 
+
+In U-Centre, select **Tools**, **Receiver Configuration**, set a file name and then click **Transfer GNSS->File**
 
 ![](NTRIPClient.jpg)
 
@@ -36,18 +38,23 @@ I configure the following in U-Centre
 I configure the following in U-Centre to log the minimum data on UART2.
 
 - UBX-PRT set UART2 protcol in to **none** and protocol out to **NMEA** 
-- Set UBX-MSG-F0-00 NMEA GxGGA to **On** for UART2
+- Set UBX-MSG-F0-00 NMEA GxGGA to **On** for UART2 for XYZ position data
 - Set UBX-MSG-F0-01 NMEA GxGLL to **Off** for UART2
 - Set UBX-MSG-F0-02 NMEA GxGSA to **Off** for UART2
 - Set UBX-MSG-F0-03 NMEA GxGSV to **Off** for UART2
-- Set UBX-MSG-F0-04 NMEA GxRMC to **On** for UART2
+- Set UBX-MSG-F0-04 NMEA GxRMC to **On** for UART2 for COG and SOG data
 - Set UBX-MSG-F0-05 NMEA GxVTG to **Off** for UART2
-- Set UBX-MSG-F0-07 NMEA GxGST to **On** for UART2
+- Set UBX-MSG-F0-07 NMEA GxGST to **On** for UART2 for accuracy data
+- Set UBX-MSG-F0-08 NMEA GxZDA to **On** for UART2 for date and time information
 
 Also enable 2D and 3D accuary UBX sentences for U-Centre
 
 - Set UBX-MSG 01-01 NAV-POSECEF to **On** for USB
 - Set UBX-MSG 01-02 NAV-POSLLH to **On** for USB
 
+Before you power down, save the configuration by going to UBX-CFG Save Current Configuration and press **send**
 
+Always take a backup of the Ardusimple configuration at the end of a configuration session. 
+
+In U-Centre, select **Tools**, **Receiver Configuration**, set a file name and then click **Transfer GNSS->File**
 
