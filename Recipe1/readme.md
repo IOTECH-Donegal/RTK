@@ -23,7 +23,7 @@ Using the output data is more of a problem. What if I need the NMEA strings for 
 ### Warning
 Serial standards like RS232, RS422 and RS485 use high voltages, +/- 15VDC. Raspberry Pi and UBlox boards use 3.3VDC. If you connect them, you will fry the board. We can connect RPi to UBlox directly, but that is for another recipe. To get data out of an Ardusiple board, we can use the RS232 interface and then configure UART2 in U-Centre to output NMEA.
 
-![](NTRIPClient.jpg)
+![](ARdu-RS232.jpg)
 
 
 
