@@ -4,6 +4,8 @@ Do some background reading on www.rtk2go.com and find the closest NTRIP mount po
 This is just a test, so even if its some distance away, this should work.
 
 Our test site is Umricam:2101, located north of Buncrana, Ireland, roughly at 55.166N, 7.435W.
+Always take a backup of the Ardusimple configuration before you begin a configuration session.
+**Tools**, **Receiver Configuration**, set a file name and then click **Transfer GNSS->File**
 
 ![](NTRIPClient.jpg)
 
@@ -26,6 +28,9 @@ Serial standards like RS232, RS422 and RS485 use high voltages, +/- 15VDC. Raspb
 ![](ARdu-RS232.jpg)
 
 I can connect this serial port back to an instrument, a logger, or back into the same laptop to use with a different piece of software. There are other ways to do this, but this is a simple and flexible solution.
+
+I configure the following in U-Centre to log on UART2.
+- 
 
 
 
