@@ -33,12 +33,21 @@ I configure the following in U-Centre
 
 - UBX-NMEA set NMEA version to 4.11 and enable high precision mode.
 
-I configure the following in U-Centre to log on UART2.
+I configure the following in U-Centre to log the minimum data on UART2.
 
-- UBX-PRT set UART2protcol in to none and protocol out to NMEA 
+- UBX-PRT set UART2 protcol in to **none** and protocol out to **NMEA** 
+- Set UBX-MSG-F0-00 NMEA GxGGA to **On** for UART2
+- Set UBX-MSG-F0-01 NMEA GxGLL to **Off** for UART2
+- Set UBX-MSG-F0-02 NMEA GxGSA to **Off** for UART2
+- Set UBX-MSG-F0-03 NMEA GxGSV to **Off** for UART2
+- Set UBX-MSG-F0-04 NMEA GxRMC to **On** for UART2
+- Set UBX-MSG-F0-05 NMEA GxVTG to **Off** for UART2
+- Set UBX-MSG-F0-07 NMEA GxGST to **On** for UART2
 
-- UBX-MSG-F0-07 NMEA GxGST 
+Also enable 2D and 3D accuary UBX sentences for U-Centre
 
+- Set UBX-MSG 01-01 NAV-POSECEF to **On** for USB
+- Set UBX-MSG 01-02 NAV-POSLLH to **On** for USB
 
 
 
