@@ -29,8 +29,15 @@ Serial standards like RS232, RS422 and RS485 use high voltages, +/- 15VDC. Raspb
 
 I can connect this serial port back to an instrument, a logger, or back into the same laptop to use with a different piece of software. There are other ways to do this, but this is a simple and flexible solution.
 
+I configure the following in U-Centre
+
+- UBX-NMEA set NMEA version to 4.11 and enable high precision mode.
+
 I configure the following in U-Centre to log on UART2.
-- 
+
+- UBX-PRT set UART2protcol in to none and protocol out to NMEA 
+
+- UBX-MSG-F0-07 NMEA GxGST 
 
 
 
