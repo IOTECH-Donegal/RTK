@@ -21,9 +21,11 @@ This general approach will also work with commercial CORS services, however, the
 Using the output data is more of a problem. What if I need the NMEA strings for an instrument, or to log? Well you can log in U-Centre, but we really need a way to get data out. There are 5 interfaces on the underlying chip. I will not discuss SPI or I2C here, that is for another recipe. But we have two UARTs, which allow serial data to be transmitted and recieved. The XBee interface on the Ardusimple board is configured for UART2 by default.  
 
 ### Warning
-Serial standards like RS232, RS422 and RS485 use high voltages, +/- 15VDC. Raspberry Pi and UBlox boards use 3.3VDC. If you connect them, you will fry the board. We can connect RPi to UBlox directly, but that is for another recipe. To get data out of an Ardusiple board, we can use the RS232 interface and then configure UART2 in U-Centre to output NMEA.
+Serial standards like RS232, RS422 and RS485 use high voltages, +/- 15VDC. Raspberry Pi and UBlox boards use 3.3VDC. If you connect them, you will fry the board. We can connect RPi to UBlox directly, but that is for another recipe. To get data out of an Ardusimple board, we can use the RS232 interface and then configure UART2 in U-Centre to output NMEA.
 
 ![](ARdu-RS232.jpg)
+
+I can connect this serial port back to an instrument, a logger, or back into the same laptop to use with a different piece of software. There are other ways to do this, but this is a simple and flexible solution.
 
 
 
