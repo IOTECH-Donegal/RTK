@@ -4,7 +4,8 @@ Do some background reading on www.rtk2go.com and find the closest NTRIP mount po
 This is just a test, so even if its some distance away, this should work.
 
 Our test site is Umricam:2101, located north of Buncrana, Ireland, roughly at 55.166N, 7.435W.
-<p> Always take a backup of the Ardusimple configuration before you begin a configuration session. In U-Centre, select **Tools**, **Receiver Configuration**, set a file name and then click **Transfer GNSS->File** </p>
+
+Always take a backup of the Ardusimple configuration before you begin a configuration session. In U-Centre, select **Tools**, **Receiver Configuration**, set a file name and then click **Transfer GNSS->File**
 
 ![](NTRIPClient.jpg)
 
