@@ -14,13 +14,13 @@ Ford paid the bill.
 __This repo is about working solutions and recipes and their associated chalk marks, but without the itemized bill.__
 
 ### Contents
-A. [Guidelines for contributors.](https://github.com/IOTECH-Donegal/Netiquette)
-B. [Getting started with RTK](https://github.com/IOTECH-Donegal/RTK/blob/main/docs/gettingstarted.md)
-C. Scripts for Raspberry PI.
-D. Python code for logging.
-E. [Python code for processing NMEA.](https://github.com/IOTECH-Donegal/NMEA)
-F. Python code for processing RTCM3.
-G. Python code for processing AIS.
+1. [Guidelines for contributors.](https://github.com/IOTECH-Donegal/Netiquette)
+2. [Getting started with RTK](https://github.com/IOTECH-Donegal/RTK/blob/main/docs/gettingstarted.md)
+3. Scripts for Raspberry PI.
+4. Python code for logging.
+5. [Python code for processing NMEA.](https://github.com/IOTECH-Donegal/NMEA)
+6. Python code for processing RTCM3.
+7. Python code for processing AIS.
 
 ### Recipes
 1. [Simple test of RTK with U-Center and someone elses NTRIP server.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe1/readme.md)
