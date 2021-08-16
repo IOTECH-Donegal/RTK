@@ -25,4 +25,7 @@ The Ardusimple web site is very good, read the notes there before you begin.
 
 ![](Fixed.jpg)
 	
-My PDOP and HDOP figures are bad, I only have 270 degree view, trees up to c. 30 degrees.
+My PDOP and HDOP figures are bad, I only have 270 degree view, trees up to c. 30 degrees. I am using a base which has performed a Survey-In and that has limitations.
+The maximum accuracy of the unit is c. 1m, my base will have this accuracy only.
+The rover will be accurate to within 2cm/1cm, but only with respect to the base.
+This is perfect for some applications, but for absolute accuracy, the base requires a precise position, see Recipe 3.

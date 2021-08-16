@@ -25,6 +25,7 @@ __This repo is about working solutions and recipes and their associated chalk ma
 ### Recipes
 1. [Simple test of RTK with U-Center and someone elses NTRIP server.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe1/readme.md)
 2. [Use a local base & connect to rover using XBee.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe2/readme.md)
+3. [Set up a CORS, calibrate using RINEX data.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe3/readme.md)
 
 ### Work in Progress
 X. [Using RTKLIB for RTK processing.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe2/readme.md)
