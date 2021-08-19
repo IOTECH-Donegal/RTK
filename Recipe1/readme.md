@@ -52,6 +52,8 @@ Also enable 2D and 3D accuary UBX sentences for U-Centre
 - Set UBX-MSG 01-01 NAV-POSECEF to **On** for USB
 - Set UBX-MSG 01-02 NAV-POSLLH to **On** for USB
 
+Also set high precision mode in UBX-CFG-NMEA, you should have 7 digits after the decimal point on the NMEA output.
+
 Before you power down, save the configuration by going to UBX-CFG Save Current Configuration and press **send**
 
 Always take a backup of the Ardusimple configuration at the end of a configuration session. 
