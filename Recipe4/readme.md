@@ -17,7 +17,8 @@ It is configured to send RTCM data to a Rover, so the Rover can figure out where
 5. On the Rover, use U-Centre to read UBX-NAV-RELPOSNED. This should show heading, distance and accuracy.
 
 This is a sloppy test, in reality, GND and IOREF should also be connected.
-Next projects
+
+Next projects to further develop this are:
 - Hook the Rover to a RPi and decode UBX-NAV-RELPOSNED to output NMEA0183 sentences, HDG/HDM/HDT.
 - Make a second connection from the Moving Base to another Rover. Now you can calculate heading, pith, roll, yaw, etc.
 
