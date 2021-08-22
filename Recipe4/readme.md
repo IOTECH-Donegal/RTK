@@ -21,6 +21,13 @@ Next projects
 - Hook the Rover to a RPi and decode UBX-NAV-RELPOSNED to output NMEA0183 sentences, HDG/HDM/HDT.
 - Make a second connection from the Moving Base to another Rover. Now you can calculate heading, pith, roll, yaw, etc.
 
+A full diagram of a working system is shown below.
+
+
+The topmost RPi (RTKRover2) takes an NTRIP feed from Wi-Fi (rtk2go.com) and uses str2str to feed it through a serial port.
+Take a look at the accompanying **autoexec.sh** file.
+The topmost Ardusimple is using the generic Moving Base configuration from Ardusimple, but is has RTK accuracy due to the RTCM feed from 
+
 
 
 
