@@ -24,10 +24,23 @@ Next projects to further develop this are:
 
 A full diagram of a working system is shown below.
 
+![](RPi.jpg)
 
-The topmost RPi (RTKRover2) takes an NTRIP feed from Wi-Fi (rtk2go.com) and uses str2str to feed it through a serial port.
+The topmost RPi (RTKRover2) takes an NTRIP feed from Wi-Fi (rtk2go.com) and uses str2str to feed it through a serial port to the Moving Base.
 Take a look at the accompanying **autoexec.sh** file.
-The topmost Ardusimple is using the generic Moving Base configuration from Ardusimple, but is has RTK accuracy due to the RTCM feed from 
+The Moving Base is using the generic configuration from Ardusimple, but is has RTK accuracy due to the RTCM feed from RTKRover2.
+
+By default, TX1 on the Moving Base is configured for the RTCM sentences required for Moving Base.
+This is connected to RX1 on Heading Sensor, which is configured with the generic 1Hz configuration from Ardusimple.
+I can use U-Centre to verify a good heading reading.
+The heading reading is only available in UBX protocol, this is fed to another RPi (Heading2) for parsing and translation.
+The code for this is yet to be added to this repo!
+
+A working evaluation assembly is shown below.
+
+![](Assembly.jpg)
+
+
 
 
 
