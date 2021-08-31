@@ -21,6 +21,7 @@ __This repo is about working solutions and recipes and their associated chalk ma
 5. [Python code for processing NMEA.](https://github.com/IOTECH-Donegal/NMEA)
 6. Python code for processing RTCM3.
 7. Python code for processing AIS.
+8. [Reference Implementations](https://github.com/IOTECH-Donegal/RTK/blob/main/docs/reference_implementation.md)
 
 ### Recipes
 1. [Simple test of RTK with U-Center and someone elses NTRIP server.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe1/readme.md)
