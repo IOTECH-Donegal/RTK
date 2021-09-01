@@ -26,12 +26,25 @@ A full diagram of a working system is shown below.
 
 ![](RPi.jpg)
 
-The topmost RPi (RTKRover2) takes an NTRIP feed from Wi-Fi (rtk2go.com) and uses str2str to feed it through a serial port to the Moving Base.
+The topmost RPi (RTKRover2) takes an NTRIP feed from Wi-Fi (rtk2go.com) and uses str2str to feed it through a serial port (/dev/ttyS0) to the Moving Base.
 Take a look at the accompanying **autoexec.sh** file.
-The Moving Base is using the generic configuration from Ardusimple, but is has RTK accuracy due to the RTCM feed from RTKRover2.
+I'm using a Pi Zero with a serial card, so I have a TX/RX light and i can see when this is working.
 
-By default, TX1 on the Moving Base is configured for the RTCM sentences required for Moving Base.
-This is connected to RX1 on Heading Sensor, which is configured with the generic 1Hz configuration from Ardusimple.
+The Moving Base is using the generic configuration from Ardusimple, but is has RTK accuracy due to the RTCM feed from RTKRover2.
+We need to use UART2 for RTCM from Moving Base to UART2 on the Heading Sensor.
+
+This is bizarre, but on the Ardusimple boards: 
+- TX2 conects to UART2 RX
+- RX2 conects to UART2 TX
+
+I know the wiring looks backwards, but check https://www.ardusimple.com/simplertk2b-hookup-guide/
+
+Connect RX2 on the Moving Base (which transmits!) to TX2 on the Heading Sensor (which receives!). 
+
+Helpfully, as they are connected: 
+- The GNSS->XBEE light on the Moving Base shows activity.
+- The XBEE->GNSS light on the Heading Sensor shows synchronised activity.
+
 I can use U-Centre to verify a good heading reading.
 The heading reading is only available in UBX protocol, this is fed to another RPi (Heading2) for parsing and translation.
 The code for this is yet to be added to this repo!
