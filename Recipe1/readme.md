@@ -33,7 +33,7 @@ I can connect this serial port back to an instrument, a logger, or back into the
 
 I configure the following in U-Centre
 
-- UBX-NMEA set NMEA version to 4.11 and enable high precision mode.
+- UBX-CFG-NMEA set NMEA version to 4.11 and enable high precision mode. You should have 7 digits after the decimal point on the NMEA output.
 
 I configure the following in U-Centre to log the minimum data on UART2.
 
@@ -51,8 +51,6 @@ Also enable 2D and 3D accuary UBX sentences for U-Centre
 
 - Set UBX-MSG 01-01 NAV-POSECEF to **On** for USB
 - Set UBX-MSG 01-02 NAV-POSLLH to **On** for USB
-
-Also set high precision mode in UBX-CFG-NMEA, you should have 7 digits after the decimal point on the NMEA output.
 
 Before you power down, save the configuration by going to UBX-CFG Save Current Configuration and press **send**
 
