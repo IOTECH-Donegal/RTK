@@ -36,16 +36,16 @@ I configure the following in U-Centre
 I configure the following in U-Centre to log the minimum data on UART1.
 
 - UBX-PRT set UART1 protcol in to **none** and protocol out to **NMEA** 
-- Set UBX-MSG-F0-00 NMEA GxGGA to **On** for UART2 for XYZ position data
-- Set UBX-MSG-F0-01 NMEA GxGLL to **Off** for UART2
-- Set UBX-MSG-F0-02 NMEA GxGSA to **Off** for UART2
-- Set UBX-MSG-F0-03 NMEA GxGSV to **Off** for UART2
-- Set UBX-MSG-F0-04 NMEA GxRMC to **On** for UART2 for COG and SOG data
-- Set UBX-MSG-F0-05 NMEA GxVTG to **Off** for UART2
-- Set UBX-MSG-F0-07 NMEA GxGST to **On** for UART2 for accuracy data
-- Set UBX-MSG-F0-08 NMEA GxZDA to **On** for UART2 for date and time information
+- Set UBX-MSG-F0-00 NMEA GxGGA to **On** for UART1 for time, XYZ position
+- Set UBX-MSG-F0-01 NMEA GxGLL to **Off** for UART1
+- Set UBX-MSG-F0-02 NMEA GxGSA to **Off** for UART1
+- Set UBX-MSG-F0-03 NMEA GxGSV to **Off** for UART1
+- Set UBX-MSG-F0-04 NMEA GxRMC to **On** for UART1 for CMG, SOG, date 
+- Set UBX-MSG-F0-05 NMEA GxVTG to **Off** for UART1
+- Set UBX-MSG-F0-07 NMEA GxGST to **On** for UART1 for accuracy data (sigma values for X, Y, Z)
+- Set UBX-MSG-F0-08 NMEA GxZDA to **Off** for UART1 
 
-Also enable 2D and 3D accuary UBX sentences for U-Centre
+Also enable 2D and 3D accuary UBX sentences for U-Centre, for monitoring
 
 - Set UBX-MSG 01-01 NAV-POSECEF to **On** for USB
 - Set UBX-MSG 01-02 NAV-POSLLH to **On** for USB
