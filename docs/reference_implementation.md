@@ -20,15 +20,16 @@ Second problem, some instruments (and KPLEX) don't like NMEA sentences above the
 I'm testing to OpenCPN only, if that works and I can log raw NMEA/UBX/RTCM/AIS, I'm happy!
 
 ### Port Allocations
-Unless otherwise state:
+Unless otherwise stated:
 USB is for control, configuration and monitoring only.
 UART1 egresses NMEA and UBX for logging, instruments, etc.
-UBlox recommend using UART2 for RTCM only, everything else is switched off. 
+UBlox recommend using UART2 for RTCM only, everything else is switched off.
+Not all the boards give access to SPI/I2C, I'm not using them for now.
 
 Remember, on an Ardusimple, UART2 is wired counter-intuitive, RX is transmit and TX is receive!
 
 
-### Ardusimple configuration
+### Ardusimple configuration for general use
 I configure the following in U-Centre
 
 - UBX-CFG-NMEA set NMEA version to 4.11 and enable high precision mode. You should have 7 digits after the decimal point on the NMEA output.
@@ -50,6 +51,10 @@ Also enable 2D and 3D accuary UBX sentences for U-Centre, for monitoring
 - Set UBX-MSG 01-01 NAV-POSECEF to **On** for USB
 - Set UBX-MSG 01-02 NAV-POSLLH to **On** for USB
 
+### Ardusimple configuration for heading
+Any board used as a rover in a moving base arrangement needs to egress UBX on UART1. More to be written on this!
+
+### General
 Before you power down, save the configuration by going to UBX-CFG Save Current Configuration and press **send**
 
 Always take a backup of the Ardusimple configuration at the end of a configuration session. 
