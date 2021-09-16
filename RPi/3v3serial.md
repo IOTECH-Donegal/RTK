@@ -42,6 +42,12 @@ Edit the config file, adding one line
     sudo nano /boot/config.txt
     dtoverlay=sc16is752-i2c,int_pin=24,addr=0x48
 
+Edit and uncomment one line. Normally, the RPi maxs out at 100Kb/s, this ups the I2C
+bus speed to 400Kb/s.
+
+    dtparam=i2c_arm=on,i2c_arm_baudrate=400000
+
+
 Reboot and check to see if the two new ports exist as ttySC0 and ttySC1. 
 
 ![](ls1.jpg)
