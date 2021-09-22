@@ -17,7 +17,7 @@ __This repo is about working solutions and recipes and their associated chalk ma
 1. [Guidelines for contributors.](https://github.com/IOTECH-Donegal/Netiquette)
 2. [Getting started with RTK](https://github.com/IOTECH-Donegal/RTK/blob/main/docs/gettingstarted.md)
 3. Scripts for Raspberry PI.
-4. [Python code for logging.](https://github.com/IOTECH-Donegal/SerialLogging)
+4. [Python code for logging (UBX, NMEA, AIS, RTCM).](https://github.com/IOTECH-Donegal/Logger21)
 5. [Python code for post processing.](https://github.com/IOTECH-Donegal/PostProcessor)
 8. [Reference Implementations](https://github.com/IOTECH-Donegal/RTK/blob/main/docs/reference_implementation.md)
 
