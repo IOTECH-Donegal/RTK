@@ -16,10 +16,11 @@ __This repo is about working solutions and recipes and their associated chalk ma
 ### Contents
 1. [Guidelines for contributors.](https://github.com/IOTECH-Donegal/Netiquette)
 2. [Getting started with RTK](https://github.com/IOTECH-Donegal/RTK/blob/main/docs/gettingstarted.md)
-3. Scripts for Raspberry PI.
+3. [Raspberry Pi scripts and hardware configuration.](https://github.com/IOTECH-Donegal/Raspbian)
 4. [Python code for logging (UBX, NMEA, AIS, RTCM).](https://github.com/IOTECH-Donegal/Logger21)
-5. [Python code for post processing.](https://github.com/IOTECH-Donegal/PostProcessor)
-8. [Reference Implementations](https://github.com/IOTECH-Donegal/RTK/blob/main/docs/reference_implementation.md)
+5. [Python code for NMEA post processing.](https://github.com/IOTECH-Donegal/PostProcessor)
+6. [Python code for UBX, sensor and post processing.](https://github.com/IOTECH-Donegal/UBlox)
+7. [Reference Implementations](https://github.com/IOTECH-Donegal/RTK/blob/main/docs/reference_implementation.md)
 
 ### Recipes
 1. [Simple test of RTK with U-Center and someone elses NTRIP server.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe1/readme.md)
