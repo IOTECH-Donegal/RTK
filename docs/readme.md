@@ -18,8 +18,8 @@ __This repo is about working solutions and recipes and their associated chalk ma
 2. [Getting started with RTK](https://github.com/IOTECH-Donegal/RTK/blob/main/docs/gettingstarted.md)
 3. [Raspberry Pi scripts and hardware configuration.](https://github.com/IOTECH-Donegal/Raspbian)
 4. [Python code for logging (UBX, NMEA, AIS, RTCM).](https://github.com/IOTECH-Donegal/Logger21)
-5. [Python code for NMEA post processing.](https://github.com/IOTECH-Donegal/PostProcessor)
-6. [Python code for UBX, sensor and post processing.](https://github.com/IOTECH-Donegal/UBlox)
+5. [Python code for NMEA post processing.](https://github.com/IOTECH-Donegal/NMEAPostProcessor)
+6. [Python code for UBX post processing.](https://github.com/IOTECH-Donegal/UBlox)
 7. [Reference Implementations](https://github.com/IOTECH-Donegal/RTK/blob/main/docs/reference_implementation.md)
 
 ### Recipes
@@ -28,8 +28,3 @@ __This repo is about working solutions and recipes and their associated chalk ma
 3. [Set up a CORS, calibrate using RINEX data.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe3/readme.md)
 4. [Add a heading sensor.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe4/readme.md)
 
-### Work in Progress
-X. [Using RTKLIB for RTK processing.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe2/readme.md)
-X. [Use 4G client on Ardusimple.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe3/readme.md)
-X. [Set up a CORS, calibrate using RINEX data.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe5/readme.md)
-X. [Relay RTCM to RTK2GO.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe6/readme.md)
