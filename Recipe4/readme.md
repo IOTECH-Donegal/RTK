@@ -3,7 +3,7 @@
 For effective INS, we need a heading sensor. This functionality is built into the UBlox-F9P.
 You can buy the kit pre-configured from Ardusimple, or construct from two SimpleRTK2B kits.
 
-In most applications, the moving base is the main boat GNSS. It recieves corrections from a CORS station and is cm accurate.
+In most applications, the moving base is the main boat GNSS. It receives corrections from a CORS station and is cm accurate.
 It is configured to send RTCM data to a Rover, so the Rover can figure out where it is with respect to the moving base. 
 
 1. Designate one kit as Moving Base and one as Rover.
