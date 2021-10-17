@@ -21,7 +21,7 @@ __This repo is about working solutions and recipes and their associated chalk ma
 5. [Python code for NMEA post processing.](https://github.com/IOTECH-Donegal/NMEAPostProcessor)
 6. [Python code for UBX post processing.](https://github.com/IOTECH-Donegal/UBlox)
 7. [Python code for NTRIP Client](https://github.com/IOTECH-Donegal/NTRIP/tree/main/readme.md)
-8. [Python code for heading sensor](https://github.com/IOTECH-Donegal/NTRIP/tree/main/readme.md)
+8. [Python code for Heading Sensor](https://github.com/IOTECH-Donegal/HeadingSensor)
 9. [Reference Implementations](https://github.com/IOTECH-Donegal/RTK/blob/main/docs/reference_implementation.md)
 
 ### Recipes
