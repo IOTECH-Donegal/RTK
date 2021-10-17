@@ -17,9 +17,9 @@ real-time to the surveyor. The production system will use a 1.3" LCD, but could 
 E-Paper if a refresh rate of 5 seconds can be achieved. I think the production system will also use USB.
 
 The accompanying file str2str.sh is a Linux script to configure the hardware port, 
-in this prototype I'm using an SPI serial HAT with two serial ports, the first 
-port is ttySC0.
+in this prototype I'm using an I2C/SPI serial HAT with two serial ports, the first 
+port is ttySC0. Check here for the [hardware descriptions.](https://github.com/IOTECH-Donegal/Raspbian) 
 
-To do this with python, there is a  [dedicated NTRIP repo.](https://github.com/IOTECH-Donegal/NTRIP/tree/main/readme.md)
+To do this with python, there is a [dedicated NTRIP repo.](https://github.com/IOTECH-Donegal/NTRIP/tree/main/readme.md)
 
 
