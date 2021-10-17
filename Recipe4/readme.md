@@ -27,8 +27,8 @@ A full diagram of a working system is shown below.
 ![](RPi.jpg)
 
 The topmost RPi (RTKRover2) takes an NTRIP feed from Wi-Fi (rtk2go.com) and uses str2str to feed it through a serial port (/dev/ttyS0) to the Moving Base.
-Take a look at the accompanying **autoexec.sh** file.
-I'm using a Pi Zero with a serial card, so I have a TX/RX light and i can see when this is working.
+Take a look at the accompanying **autoexec.sh** file. For more detail, review Recipe 5.
+I'm using a Pi Zero with a serial card, so I have a TX/RX light and I can see when this is working.
 
 The Moving Base is using the generic configuration from Ardusimple, but is has RTK accuracy due to the RTCM feed from RTKRover2.
 We need to use UART2 for RTCM from Moving Base to UART2 on the Heading Sensor.
@@ -47,7 +47,7 @@ Helpfully, as they are connected:
 
 I can use U-Centre to verify a good heading reading.
 The heading reading is only available in UBX protocol, this is fed to another RPi (Heading2) for parsing and translation.
-The code for this is yet to be added to this repo!
+A [UBX parser](https://github.com/IOTECH-Donegal/HeadingSensor) has been written and tested as a heading sensor.
 
 A working evaluation assembly is shown below.
 

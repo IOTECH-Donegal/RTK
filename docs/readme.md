@@ -13,14 +13,16 @@ Ford paid the bill.
 
 __This repo is about working solutions and recipes and their associated chalk marks, but without the itemized bill.__
 
-### Contents
+### Contents and Links
 1. [Guidelines for contributors.](https://github.com/IOTECH-Donegal/Netiquette)
 2. [Getting started with RTK](https://github.com/IOTECH-Donegal/RTK/blob/main/docs/gettingstarted.md)
 3. [Raspberry Pi scripts and hardware configuration.](https://github.com/IOTECH-Donegal/Raspbian)
 4. [Python code for logging (UBX, NMEA, AIS, RTCM).](https://github.com/IOTECH-Donegal/Logger21)
 5. [Python code for NMEA post processing.](https://github.com/IOTECH-Donegal/NMEAPostProcessor)
 6. [Python code for UBX post processing.](https://github.com/IOTECH-Donegal/UBlox)
-7. [Reference Implementations](https://github.com/IOTECH-Donegal/RTK/blob/main/docs/reference_implementation.md)
+7. [Python code for NTRIP Client](https://github.com/IOTECH-Donegal/NTRIP/tree/main/readme.md)
+8. [Python code for heading sensor](https://github.com/IOTECH-Donegal/NTRIP/tree/main/readme.md)
+9. [Reference Implementations](https://github.com/IOTECH-Donegal/RTK/blob/main/docs/reference_implementation.md)
 
 ### Recipes
 1. [Simple test of RTK with U-Center and someone elses NTRIP server.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe1/readme.md)
