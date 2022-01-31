@@ -30,4 +30,5 @@ __This repo is about working solutions and recipes and their associated chalk ma
 3. [Set up a CORS, calibrate using RINEX data.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe3/readme.md)
 4. [Add a heading sensor.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe4/readme.md)
 5. [Getting RTCM to a GNSS sensor.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe5/readme.md)
+6. [Kludging the C94-M8P for a CORS feed.](https://github.com/IOTECH-Donegal/RTK/tree/main/Recipe7/readme.md)
 
