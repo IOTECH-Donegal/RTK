@@ -36,7 +36,7 @@ Now I can post-process my data.
 
 ![](RTKPOST.jpg)
 
-I copy the output to a directory called Solution. 
+I copy the output to a directory called **Solution**. 
 There are three files, I load the one without an extension into Excel.
 There is a header, and then I get columns of data.
 Any row with a **Q** value of **1** is in RTK Fixed mode and should be accurate. I ignore rows with any other Q value.
@@ -45,6 +45,18 @@ Any row with a **Q** value of **1** is in RTK Fixed mode and should be accurate.
 
 I can now do calculations, see how stable the position is, get the mean values, variance etc.
 
+When all of this is finished, you have a CORS, but only on your home network. 
+You could port-forward to an Internet connection.
+As an alternative, I set up a Windows Server instance in Azure called NTRIP1.
+I added 2101 as an inbound port, both in Azure and in the Windows Firewall.
+
+I installed the free version of SNIP.
+- I set Casters and Clients, Caster IP to 10.0.0.4 (the private address of NTRIP1)
+- I set the IP Mapping to the public address, 20.123.13.249. 
+- I tested this by opening a web browser to 20.123.13.249:2101
+
+I then sent a stream to the server as a pushed-in stream, from str2str.
+There is one "gotcha", the free version of SNIP will only support a single pushed-in stream.
 
 
 
