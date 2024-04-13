@@ -58,6 +58,8 @@ I installed the free version of SNIP.
 I then sent a stream to the server as a pushed-in stream, from str2str.
 There is one "gotcha", the free version of SNIP will only support a single pushed-in stream.
 
+There are two sample configuration files from Ardusimple ZED-F9P in this directory
+
 
 
 
